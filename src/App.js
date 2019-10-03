@@ -1,9 +1,15 @@
-import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import React, { Component } from "react"
+import Color from "./components/Color"
+import ColorHook from "./components/ColorHook"
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <div>
+        {/* <Color /> */}
+        <ColorHook />
+      </div>
+    )
   }
 }
 
